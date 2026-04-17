@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 # Required GitHub secrets:
 # - AZURE_CREDENTIALS (service principal JSON for azure/login)
 # - AZURE_CONTAINER_REGISTRY (for example: myregistry.azurecr.io)
